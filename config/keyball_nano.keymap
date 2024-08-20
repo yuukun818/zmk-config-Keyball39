@@ -97,7 +97,7 @@
             label = "MOUSE";
             bindings = <
                 &trans           &trans           &trans           &trans            &trans          &trans          &trans          &trans          &trans          &trans
-                &trans           &mkp LCLK        &mkp MCLK        &mkp RCLK         &trans          &trans          &kp RCTL        &kp RSFT        &kp RALT        &kp RGUI
+                &trans           &mkp LCLK        &mkp MCLK        &mkp RCLK         &trans          &trans          &mkp LCLK        &mkp MCLK        &mkp RCLK        &kp RGUI
                 &trans           &trans           &trans           &lt SCROLL ESC    &lt SNIPE ESC   &trans          &trans          &trans          &trans          &mkp LCLK
                                                   &trans           &trans            &trans          &trans          &trans
             >;
