@@ -70,7 +70,8 @@
                 &kp LGUI        &kp LALT        &kp LSFT        &kp LCTL        &none           &kp KP_MULTIPLY &kp N4          &kp N5          &kp N6          &kp KP_DIVIDE
                 &none           &none           &none           &none           &none           &kp KP_EQUAL    &kp N1          &kp N2          &kp N3          &kp KP_DOT
                 &kp LCTL       &kp LGUI       &kp LALT     &kp TAB   &kp SPACE     &kp SPACE   &kp ENTER       &kp BSPC  &kp DEL
-        };
+        >;
+};
 
         symbol_layer {
             label = "SYM";
