@@ -1,5 +1,5 @@
 config SHIELD_KEYBALL_NANO_LEFT
-    def_bool $(shields_list_contains, keyball_nano_left)
+    def_bool $(shields_list_contains,keyball_nano_left)
 
 config SHIELD_KEYBALL_NANO_RIGHT
-    def_bool $(shields_list_contains, keyball_nano_right)
+    def_bool $(shields_list_contains,keyball_nano_right)
