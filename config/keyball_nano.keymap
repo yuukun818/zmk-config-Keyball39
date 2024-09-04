@@ -75,20 +75,20 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&none      &none     &kp LT     &kp GT    &kp PRCNT                        &kp AMPS  &kp CARET  &kp LBRC  &kp RBRC  &none
-&kp GRAVE  &kp EXCL  &kp MINUS  &kp PLUS  &kp EQUAL                        &kp PIPE  &kp COLON  &kp LPAR  &kp RPAR  &kp AT
-&none      &none     &kp SLASH  &kp STAR  &kp BSLH                         &kp HASH  &kp DLLR   &kp LBKT  &kp RBKT  &none
-&kp LCTL   &kp LGUI  &kp LALT   &kp TAB   &kp SPACE  &kp SPACE  &kp ENTER  &kp BSPC                                 &kp DEL
+&trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
+&trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
+&trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                  &trans
             >;
         };
 
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1  &kp F2    &kp F3    &kp F4   &none                            &none     &none          &bt BT_PRV   &bt BT_NXT      &bt BT_CLR
-&kp F5  &kp F6    &kp F7    &kp F8   &none                            &kp LEFT  &mt RCTL DOWN  &mt RSFT UP  &mt RALT RIGHT  &kp RGUI
+&kp F1  &kp F2    &kp F3    &kp F4   &none                            &none     &none          &none        &none           &none
+&kp F5  &kp F6    &kp F7    &kp F8   &none                            &none     &none          &none        &none           &none
 &kp F9  &kp F10   &kp F11   &kp F12  &none                            &none     &none          &none        &none           &none
-&trans  &kp LGUI  &kp LALT  &kp TAB  &kp SPACE  &kp SPACE  &kp ENTER  &kp BSPC                                              &kp DEL
+&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                  &trans
             >;
         };
 
@@ -98,7 +98,7 @@
 &kp N1          &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7     &kp N8  &kp N9     &kp N0
 &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &mo 6                   &kp PAGE_UP    &mkp LCLK  &none   &mkp RCLK  &mkp MCLK
 &none           &none           &none         &none      &none                   &kp PAGE_DOWN  &none      &none   &none      &none
-&trans          &trans          &trans        &trans     &trans  &trans  &trans  &trans                                       &none
+&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                  &trans
             >;
         };
 
@@ -108,7 +108,7 @@
 &trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
 &trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
 &trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
-&kp LCTL  &kp LGUI  &kp LALT  &kp TAB  &kp SPACE  &kp SPACE  &kp ENTER  &kp BSPC                          &kp DEL
+&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                  &trans
             >;
         };
 
@@ -118,7 +118,7 @@
 &trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
 &trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
 &trans    &trans    &trans    &trans   &trans                           &trans    &trans  &trans  &trans  &trans
-&kp LCTL  &kp LGUI  &kp LALT  &kp TAB  &kp SPACE  &kp SPACE  &kp ENTER  &kp BSPC                          &kp DEL
+&trans        &trans        &trans        &trans        &trans        &trans  &trans  &trans                                                  &trans
             >;
         };
     };
