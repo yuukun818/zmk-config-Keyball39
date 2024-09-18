@@ -32,7 +32,7 @@
 			, <&pro_micro 18 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
-    
+};    
     
 &i2c0_default {
         group1 {
@@ -68,4 +68,3 @@
         prechargep = <0x22>;
         };
     };
-};
