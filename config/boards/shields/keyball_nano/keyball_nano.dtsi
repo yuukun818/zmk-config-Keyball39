@@ -33,7 +33,8 @@
             ;
     };
 };    
-    
+
+&pinctrl {    
 &i2c0_default {
         group1 {
             psels = <NRF_PSEL(TWIM_SDA, 0, 17)>,
@@ -49,7 +50,7 @@
         };
     };
 
-    &pro_micro_i2c {
+    &i2c0 {
     status = "okay";
 
     oled: ssd1306@3c {
@@ -68,3 +69,4 @@
         prechargep = <0x22>;
         };
     };
+};
