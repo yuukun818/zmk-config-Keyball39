@@ -14,8 +14,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: keyball_nano_left
+    shield: keyball39_left
   - board: nice_nano_v2
-    shield: keyball_nano_right
+    shield: keyball39_right
   - board: nice_nano_v2
     shield: settings_reset

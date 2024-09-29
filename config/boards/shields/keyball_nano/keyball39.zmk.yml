@@ -1,6 +1,6 @@
 file_format: "1"
-id: keyball_nano
-name: Keyball_nano
+id: keyball39
+name: Keyball39
 type: shield
 url: https://github.com/Yowkees/keyball
 requires: [pro_micro]
@@ -9,5 +9,5 @@ features:
   - pointer
   - underglow
 siblings:
-  - keyball_nano_left
-  - keyball_nano_right
+  - keyball39_left
+  - keyball39_right
