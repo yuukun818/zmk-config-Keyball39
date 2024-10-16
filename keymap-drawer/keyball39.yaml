@@ -197,7 +197,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - function
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   scroll:
   - {t: '$$mdi:transfer$$', type: trans}
