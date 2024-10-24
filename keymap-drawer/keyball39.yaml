@@ -33,9 +33,9 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - LGUI
   - $$mdi:apple-keyboard-option$$
-  - {t: LANGUAGE 2, h: snipe}
+  - {t: 'Sft+ $$mdi:apple-keyboard-caps$$', h: snipe}
   - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: LANG1, h: scroll}
+  - {t: 'Ctl+ $$mdi:apple-keyboard-caps$$', h: scroll}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: symbol}
   - $$mdi:apple-keyboard-shift$$
