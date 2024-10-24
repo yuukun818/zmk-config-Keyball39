@@ -35,7 +35,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: snipe}
   - {t: '$$mdi:keyboard-space$$', h: mouse}
-  - {t: '$$mdi:keyboard-tab$$', h: scroll}
+  - {t: LANGUAGE 4, h: scroll}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: symbol}
   - $$mdi:apple-keyboard-shift$$
