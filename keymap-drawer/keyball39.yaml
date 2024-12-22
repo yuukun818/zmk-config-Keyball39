@@ -37,8 +37,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: ⇒}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: ⇒}
-  - LANG5
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - INT HENKAN
   NUM:
   - '!'
   - '?'
@@ -68,7 +68,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - '~'
+  - .
   - {t: ',', s: <}
   - <
   - '>'
@@ -78,7 +78,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - .
+  - INT MUHENKAN
   ⇒:
   - F1
   - F2
@@ -117,7 +117,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   FUN:
   - F1
