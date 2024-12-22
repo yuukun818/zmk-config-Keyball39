@@ -12,10 +12,11 @@
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -69,20 +70,20 @@
         default_layer {
             label = "kana";
             bindings = <
-&kp Q             &kp W      &kp R       &kp J      &kp T                                 &kp G            &kp Z      &kp D      &kp P  &kp B
-&kp O             &kp E      &kp U       &kp I      &kp A                                 &kp K            &kp S      &kp T      &kp N  &kp H
-&kp LEFT_CONTROL  &kp X      &kp C       &kp V      &kp LEFT_SHIFT                        &kp M            &mkp LCLK  &mkp RCLK  &kp Y  &kp F
-&kp MINUS         &kp COMMA  &kp PERIOD  &lt 1 TAB  &lt 2 LEFT_ALT  &kp SPACE  &kp ENTER  &lt 2 BACKSPACE                               &kp LANG5
+&kp Q             &kp W      &kp R       &kp J      &kp T                                 &kp G          &kp Z      &kp D      &kp P  &kp B
+&kp O             &kp E      &kp U       &kp I      &kp A                                 &kp K          &kp S      &kp T      &kp N  &kp H
+&kp LEFT_CONTROL  &kp X      &kp C       &kp V      &kp LEFT_SHIFT                        &kp M          &mkp LCLK  &mkp RCLK  &kp Y  &kp F
+&kp MINUS         &kp COMMA  &kp PERIOD  &lt 1 TAB  &lt 2 LEFT_ALT  &kp SPACE  &kp ENTER  &kp BACKSPACE                               &kp INT_HENKAN
             >;
         };
 
         number_layer {
             label = "NUM";
             bindings = <
-&kp EXCLAMATION       &kp QUESTION           &kp HASH           &kp INT_YEN  &kp PERCENT                        &kp N7         &kp N8        &kp N9        &kp N0     &kp EQUAL
-&kp LBKT              &kp RBKT               &kp DOUBLE_QUOTES  &kp SQT      &kp AMPERSAND                      &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp PLUS   &kp MINUS
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON      &kp COLON    &kp LEFT_SHIFT                     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp TILDE  &kp COMMA
-&kp LESS_THAN         &kp GREATER_THAN       &kp SLASH          &trans       &trans          &trans  &kp ENTER  &kp BACKSPACE                                         &kp PERIOD
+&kp EXCLAMATION       &kp QUESTION           &kp HASH           &kp INT_YEN  &kp PERCENT                        &kp N7         &kp N8        &kp N9        &kp N0      &kp EQUAL
+&kp LBKT              &kp RBKT               &kp DOUBLE_QUOTES  &kp SQT      &kp AMPERSAND                      &kp NUMBER_4   &kp N5        &kp NUMBER_6  &kp PLUS    &kp MINUS
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON      &kp COLON    &kp LEFT_SHIFT                     &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp COMMA
+&kp LESS_THAN         &kp GREATER_THAN       &kp SLASH          &trans       &trans          &trans  &kp ENTER  &kp BACKSPACE                                          &kp INT_MUHENKAN
             >;
         };
 
