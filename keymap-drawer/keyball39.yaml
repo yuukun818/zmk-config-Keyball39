@@ -38,7 +38,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: ⇒}
-  - LANGUAGE 4
+  - LANG5
   NUM:
   - '!'
   - '?'
