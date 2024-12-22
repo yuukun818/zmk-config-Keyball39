@@ -35,10 +35,10 @@ layers:
   - .
   - {t: '$$mdi:keyboard-tab$$', h: NUM}
   - {t: '$$mdi:apple-keyboard-option$$', h: ⇒}
-  - {t: 'Alt+$$mdi:keyboard-space$$', h: FUN}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: ⇒}
-  - $$mdi:apple-keyboard-shift$$
+  - LANGUAGE 4
   NUM:
   - '!'
   - '?'
@@ -52,8 +52,8 @@ layers:
   - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: ;, s: ':'}
-  - ':'
+  - '"'
+  - {t: '''', s: '"'}
   - '&'
   - '4'
   - {t: '5', s: '%'}
@@ -62,23 +62,23 @@ layers:
   - {t: '-', s: _}
   - (
   - )
-  - {t: ',', s: <}
-  - .
+  - {t: ;, s: ':'}
+  - ':'
   - $$mdi:apple-keyboard-shift$$
   - '1'
   - '2'
   - '3'
   - '~'
-  - '*'
-  - '"'
-  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - <
+  - '>'
   - {t: /, s: '?'}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - LANGUAGE 4
+  - .
   ⇒:
   - F1
   - F2
@@ -98,7 +98,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:pan-up$$
+  - PgUp
   - $$mdi:mouse-right-click-outline$$
   - F6
   - F7
@@ -108,7 +108,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - $$mdi:pan-down$$
+  - PgDn
   - $$mdi:mouse-left-click-outline$$
   - F11
   - F12
@@ -155,7 +155,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
