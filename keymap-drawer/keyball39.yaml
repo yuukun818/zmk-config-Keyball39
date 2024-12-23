@@ -2,83 +2,83 @@ layers:
   kana:
   - Q
   - W
-  - R
-  - J
-  - T
-  - G
-  - Z
-  - D
-  - P
-  - B
-  - O
   - E
+  - R
+  - T
+  - Y
   - U
   - I
+  - O
+  - P
   - A
-  - K
   - S
-  - T
-  - N
+  - D
+  - F
+  - G
   - H
-  - $$mdi:apple-keyboard-control$$
+  - J
+  - K
+  - L
+  - {t: '-', s: _}
+  - Z
   - X
   - C
   - V
-  - $$mdi:apple-keyboard-shift$$
-  - M
+  - B
+  - N
   - $$mdi:mouse-left-click-outline$$
   - $$mdi:mouse-right-click-outline$$
-  - Y
-  - F
-  - {t: '-', s: _}
+  - M
   - {t: ',', s: <}
-  - .
-  - {t: '$$mdi:keyboard-tab$$', h: NUM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: ⇒}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - {t: INT MUHENKAN, h: NUM}
+  - {t: INT HENKAN, h: ⇒}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - INT HENKAN
+  - .
   NUM:
   - '!'
-  - '?'
+  - '"'
   - '#'
-  - INT YEN
+  - $
   - '%'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - '"'
-  - {t: '''', s: '"'}
   - '&'
+  - (
+  - )
+  - INT YEN
+  - '?'
   - '4'
   - {t: '5', s: '%'}
   - '6'
   - +
   - {t: '-', s: _}
-  - (
-  - )
-  - {t: ;, s: ':'}
+  - '*'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - ':'
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ;, s: ':'}
   - '1'
   - '2'
   - '3'
   - .
   - {t: ',', s: <}
+  - '@'
   - <
   - '>'
-  - {t: /, s: '?'}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - INT MUHENKAN
+  - '~'
   ⇒:
   - F1
   - F2
